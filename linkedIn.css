@@ -1,137 +1,91 @@
 *{
     margin: 0px;
 }
-
 .favicon{
     height: 10px;
 }
-
 .container{
     height: 600px;
     width: 100%;
-   
-    
 }
-
-
 .navbar{
     height: 60px;
     width: 100%;
     display: flex;
-   
 }
-
 .nav-left{
     width: 50%;
-    height: 60px;
-    
-    
+    height: 60px;    
 }
-
 .nav-right{
     display: flex;
-        
-        height: 60px;
-        width: 50%;
-        
-        
-             
+    height: 60px;
+    width: 50%;             
 }
-
-.icons{
-    
+.icons{  
     width: 350px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
-   
-    
-    
-    
-    
+    justify-content: space-around;   
 }
 .discover-icon{
-    height: 20px;
-    
+    height: 20px; 
     cursor: pointer;
     opacity: .5;
-   
 }
-
 .discover-icon:hover
 {
  opacity: 1.0;
 }
-
 .people-icon
 {
     height: 20px;
-    
     cursor: pointer;
     opacity: .5;
-   
 }
-
 .people-icon:hover
 {
  opacity: 1.0;
 }
-
 .play-icon
 {
     height: 20px;
-    
     cursor: pointer;
     opacity: .5;
-   
 }
-
 .play-icon:hover
 {
  opacity: 1.0;
 }
-
 .job-icon
 {
     height: 20px;
-    
     cursor: pointer;
     opacity: .5;
-    
-   
 }
-
 .job-icon:hover
 {
  opacity: 1.0;
 }
-
 .icon-names{
     display: flex;
     justify-content: space-between; 
-    
     align-items: flex-end;
-   
     height: 10px;
     width: 300px;
-   
     position: relative;
     right: 330px;  
     top: 48px;
 }
-
 p:hover{
     opacity: 1.0;
 }
-
 p{
     opacity: .5;
     cursor: pointer;
 }
-
-
 #bar{
     position: absolute;
     right: 399px;
@@ -141,7 +95,6 @@ p{
     border: 1px solid black;
     opacity: .5;
 }
-
 .join-now{
     position: absolute;
     right: 290PX;
@@ -158,7 +111,6 @@ p{
     background: rgb(209, 209, 209);
     color: black;
 }
-
 .in{
     position: absolute;
     right: 180PX;
@@ -171,70 +123,52 @@ p{
     font-weight: bolder;
     color: rgb(28, 107, 186);
 }
-
 .in:hover{
     background: rgb(82, 82, 255);
     color: rgb(255, 255, 255);
 }
-
 .body{
     width: 100%;
     height: 675px;
     display: flex;
-    
 }
-
 .body-left{
     width: 50%;
     height: 675px;  
 }
-
-
 .body-right{
     width: 50%;
     height: 675px;    
 }
-
 .main-heading {
     padding-left: 200px;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
     font-size: 56px;
     font-weight: 200;
 }
-
 .text-color-text-accent-2 {
     color: #b74e32;
 }
-
-
 .form-div{
-
     position: absolute;
     left: 200px;
 }
-
 .input-box{
     height: 45px;
     width: 400px;
     margin-top: 7px;
-
 }
-
 .input-box:hover{
     border: 2px solid black;
 }
 .forgot-pass{
     cursor: pointer;
     color: rgb(77, 77, 219);
-   
 }
 .forgot-pass:hover{
-
     color: blue;
     text-decoration: underline;
-    
 }
-
 .sign-ip-button{
     width: 410px;
     height: 40px;
@@ -244,24 +178,19 @@ p{
     font-weight: bold;
     background: rgb(85, 85, 226);
 }
-
 .sign-ip-button:hover{
     background: blue;
 }
-
 .line{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    
 }
-
 .or{
     position: absolute;
     top: 310px;
     left: 193px;
 }
-
 .Sign-google{
     width: 410px;
     height:40px ;
@@ -278,23 +207,18 @@ p{
     cursor: pointer;
 }
 #bg-image{
-    
     height: 550px;
     width: 650px;
     position: relative;
     left: 50px;
     top: 50px;
-    
  }
-
 #logo{
    margin-left: 200px;
     width: 120px;
     height: 70px;
     cursor: pointer;
-    
 }
-
 label{
     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
